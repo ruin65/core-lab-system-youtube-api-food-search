@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url('1.png'); 
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFFDF9;
+    padding: 80px;
+    border-style: solid;
+    border-width: 5px;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+}
+
+.search-box label {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.search-box input[type="text"] {
+    border: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+    width: 60%; /* 增加宽度 */
+}
+
+.search-box button {
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+  
+    width: 20%; /* 增加宽度 */
+}
+
+.search-box button:hover {
+    background: #555;
+}
